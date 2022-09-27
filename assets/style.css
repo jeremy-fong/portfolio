@@ -170,3 +170,16 @@ p {
 }
 
 /* Footer */
+.footer {
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+}
+ 
+.text-muted {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #7F8487;
+}
