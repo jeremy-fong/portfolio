@@ -145,4 +145,28 @@ p {
 }
  
 /* Contact Me */
+.contact {
+    margin: 1rem;
+    border-radius: 10px;
+    background: #F9F9F9;
+    padding: 1rem;
+}
+ 
+.contact-list ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+ 
+.contact-list li {
+    list-style: none;
+}
+ 
+.contact-list li a {
+    text-decoration: none;
+    color: black;
+    padding: .5rem;
+    display: block;
+}
+
 /* Footer */
