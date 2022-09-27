@@ -62,6 +62,9 @@ p {
  
 .about-image {
     float: left;
+    width: 15%;
+    border-radius: 50%;
+    box-shadow: 5px 10px 8px #7F8487;
 }
  
 .about-container {
@@ -183,3 +186,49 @@ p {
     width: 100%;
     color: #7F8487;
 }
+
+@media screen and (min-width: 1025px) {
+    .card {
+ 
+        width: 500px;
+    }
+   
+    h1, .nav-title {
+        font-size: 35px;
+    }
+ 
+    h2 {
+        font-size: 22px;
+    }
+   
+    p {
+        font-size: 17px;
+    }
+ 
+    .nav-links ul {
+        font-size: 20px;
+    }
+}
+ 
+@media screen and (max-width: 600px) {
+    .nav {
+        display: block;
+   
+    }
+   
+    .nav-links ul {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+     
+    }
+ 
+    .contact-list ul {
+       display: block;
+    }
+
+    .about-image {
+        width: 20%;
+    }
+}
+

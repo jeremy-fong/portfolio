@@ -4,51 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jeremy's Portfolio</title>
-    <link rel="stylesheet" href="./assets/style.css"/>
+    <title>Portfolio Page</title>
+    <link rel="stylesheet" href="./assets/style.css" />
 </head>
-
+ 
 <body>
-    <!-- Header -->
     <header>
-        <!-- Nav -->
+    <!-- Nav -->
         <nav class="nav">
-            <div class="nav-title">Jeremy Fong | Web Developer</div>
+            <a href="./index.html" class="image-links"><div class="nav-title">Jeremy Fong | Web Developer</div></a>
             <div class="nav-links">
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#aboutme">About Me</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contactme">Contact</a></li>
                 </ul>
             </div>
-        </nav>
+            </nav>
     </header>
     <!-- Main Content -->
     <main>
         <!-- About Me -->
-            <section class="about">
-                <h1 class="main-title">About Me</h1>
-                <div class="about-container">
-                    <img src="" class="about-image" alt="Screenshot of Jeremy Fong">
-                    <p>
-                        Hello, my name is Jeremy Fong and I am based out of Sacramento, California. I am new to Web development, however I am very eager and excited to learn more and improve on my skills. This is just the beginning, it's not impressive... I know, but just wait on it. Don't sleep on me.
-                    </p>
-                </div>
+        <section id="aboutme" class="about">
+            <h1 class="main-title">About Me</h1>
+            <div class="about-container">
+                <img src="./assets/images/head-screenshot.jpg" class="about-image" alt="Screenshot of Jeremy Fong">
+                <p>
+                    Hello, my name is Jeremy Fong and I am based out of Sacramento, California. I am new to Web development, however I am very eager and excited to learn more and improve on my skills. This is just the beginning, it's not impressive... I know, but just wait on it. Don't sleep on me.
+                </p>
+            </div>
         </section>
         <!-- Projects -->
-        <section class="projects">
+        <section id="portfolio" class="projects">
             <h1 class="main-title">Projects</h1>
             <div class="card">
                  <h2 class="card-title">Prework Study Guide</h2>
-                 <img src="" class="card-image" alt="Screenshot of Prework Study Guide"></a>
+                 <a href="https://jeremy-fong.github.io/prework-study-guide/" class="image-links"><img src="./assets/images/prework-sg-screenshot.png" class="card-image" alt="Screenshot of Prework Study Guide"></a>
                 <p>
                      This is a Prework Study Guide for students who are working through the UC Davis coding bootcamp prework material. It contains some basic notes on HTML, CSS, JavaScript, and Git.
                 </p>
             </div>
             <div class="card">
                 <h2 class="card-title">Refactored Horiseon Webpage</h2>
-                <img src="" class="card-image" alt="Screenshot of Horiseon Webpage"></a>
+                <a href="https://jeremy-fong.github.io/horiseon/" class="image-links"><img src="./assets/images/horiseon-screenshot.png" class="card-image" alt="Screenshot of Horiseon Webpage"></a>
                 <p>
                     Refactored the Horiseon Webpage so that it follows accessiblity standards for optimized search engines.
                 </p>
@@ -78,23 +77,24 @@
                 </p>
             </div>
             </section>
-
         <!-- Contact Me -->
-        <section class="contact">
+        <section id="contactme" class="contact">
             <h1 class="main-title">Contact Me</h1>
             <div class="contact-list">
                 <ul>
                     <li><a href="#">Email: jeremyfong9@yahoo.com</a></li>
-                    <li><a href="">Github: Jeremy Fong</a></li>
+                    <li><a href="https://github.com/jeremy-fong">Github: Jeremy Fong</a></li>
                 </ul>
             </div>
         </section>
     </main>
-    <!-- Footer -->
+    <!-- footer -->
+ 
     <footer>
         <div class="footer">
             <span class="text-muted"><small>Copyright 2022 Jeremy Fong</small></span>
         </div>
     </footer>
+ 
 </body>
 </html>
